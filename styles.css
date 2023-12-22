@@ -168,7 +168,7 @@ nav {
 
 .mobile-menu ul {
     padding: 0;
-    margin: 24px 0 0;
+    margin: 4px 0 0;
     list-style: none;
 
 }
@@ -195,25 +195,25 @@ nav {
 }
 
 .mobile-menu ul:nth-child(1) li {
-    margin-bottom: 36px;
+    margin-bottom: 28px;
 }
 
 .mobile-menu ul:nth-child(1) li:last-child {
-    margin-bottom: 48px;
+    margin-bottom: 28px;
 }
 
 .mobile-menu ul:nth-child(2) {
-    margin-top: 48px;
+    margin-top: 28px;
 }
 
 .mobile-menu ul:last-child li:nth-child(1) {
     margin-bottom: 6px;
 }
 
-/* .mobile-menu .bottom-section {
-    position: relative;
+.mobile-menu .bottom-section {
+    position: fixed;
     bottom: 5px;
-} */  /*parece funcionar sin esto*/
+}
 
 @media (max-width: 640px) {
     .menu {
@@ -226,6 +226,16 @@ nav {
     }
 
     .navbar-email {
+        display: none;
+    }
+
+    .desktop-menu {
+        display: none;
+    }
+}
+
+@media (min-width: 641px) {
+    .mobile-menu {
         display: none;
     }
 }
