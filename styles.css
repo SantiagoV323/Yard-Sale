@@ -148,6 +148,68 @@ nav {
     display: inline-block;
 }
 
+/* Integración de menú mobile */
+.mobile-menu {
+    padding: 24px;
+    margin-left: 10px;
+}
+
+.mobile-menu a {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+}
+
+.mobile-menu ul {
+    padding: 0;
+    margin: 24px 0 0;
+    list-style: none;
+
+}
+
+.mobile-menu ul li {
+    margin-bottom: 24px;
+}
+
+.mobile-menu .email {
+    font-size: var(--sm);
+    font-weight: 300;
+}
+
+.mobile-menu ul:nth-child(1) {
+    border-bottom: 1px solid var(--very-light-pink);
+    margin-top: 10px;
+}
+
+.mobile-menu .sign-out {
+
+    color: var(--hospital-green);
+    font-size: var(--sm);
+
+}
+
+.mobile-menu ul:nth-child(1) li {
+    margin-bottom: 36px;
+}
+
+.mobile-menu ul:nth-child(1) li:last-child {
+    margin-bottom: 48px;
+}
+
+.mobile-menu ul:nth-child(2) {
+    margin-top: 48px;
+}
+
+.mobile-menu ul:last-child li:nth-child(1) {
+    margin-bottom: 6px;
+}
+
+.mobile-menu .bottom-section {
+    position: absolute;
+    bottom: 0;
+
+}
+
 @media (max-width: 640px) {
     .menu {
         display: block;
