@@ -149,6 +149,7 @@ nav {
 /* Integración del menú mobile */
 
 .mobile-menu {
+    background-color: var(--white);
     position: absolute;
     width: 100%;
     top: 60px;
@@ -217,8 +218,9 @@ nav {
 
 /* My order */
 .product-detail {
+    background-color: var(--white);
     width: 360px;
-    padding: 24px;
+    padding: 0 24px;
     box-sizing: border-box;
     position: absolute;
     right: 0;
@@ -305,15 +307,9 @@ nav {
 }
 
 @media (max-width: 640px) {
-    .product-detail {
-        width: 100%;
-    }
-}
-
-@media (max-width: 640px) {
     .menu {
         display: block;
-
+        
     }
 
     .navbar-left ul {
@@ -326,6 +322,10 @@ nav {
 
     .desktop-menu {
         display: none;
+    }
+
+    .product-detail {
+        width: 100%;
     }
 }
 
