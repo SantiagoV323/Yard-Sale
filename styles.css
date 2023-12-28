@@ -312,6 +312,7 @@ nav {
     grid-template-columns: repeat(auto-fill, 240px);
     gap: 28px;
     place-content: center;
+    margin-top: 20px;
 }
 
 .product-card {
@@ -341,12 +342,14 @@ nav {
     width: 36px;
     height: 36px;
 }
+
 .product-info div p:nth-child(1) {
     font-weight: bold;
     font-size: var(--md);
     margin-top: 0;
     margin-bottom: 4px;
 }
+
 .product-info div p:nth-child(2) {
     font-size: var(--sm);
     margin-top: 0px;
