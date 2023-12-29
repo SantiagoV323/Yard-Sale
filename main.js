@@ -3,7 +3,7 @@ const desktopMenu = document.querySelector('.desktop-menu'); // se usa punto par
 const burgerMenuIcon = document.querySelector('.menu');
 const mobileMenu = document.querySelector('.mobile-menu');
 const myOrderCarrito = document.querySelector('.navbar-shopping-cart');
-const aside = document.querySelector('.product-detail');
+const shoppingCartContainer = document.querySelector('#shoppingCartContainer');
 const cardsContainer = document.querySelector('.cards-container');
 
 
@@ -13,10 +13,10 @@ burgerMenuIcon.addEventListener('click', toggleMobileMenu);
 myOrderCarrito.addEventListener('click', toggleCarritoAside);
 
 function toggleDesktopMenu() {
-    const isAsideClosed = aside.classList.contains('inactive')
+    const isAsideClosed = shoppingCartContainer.classList.contains('inactive')
     // Si my-order está abierto, cerrarlo al abrir menú
     if (!isAsideClosed) {
-        aside.classList.add('inactive')
+        shoppingCartContainer.classList.add('inactive')
     }
     desktopMenu.classList.toggle('inactive');
     navEmail.classList.toggle('selected'); // se usa toggle para agregar o quitar una clase. En este caso, se agrega la clase 'selected' al botón de menú.
@@ -45,10 +45,10 @@ document.addEventListener('click', function (event) { // esta línea crea un eve
 });
 
 function toggleMobileMenu() {
-    const isAsideClosed = aside.classList.contains('inactive')
+    const isAsideClosed = shoppingCartContainer.classList.contains('inactive')
     // Si my-order está abierto, cerrarlo al abrir menú
     if (!isAsideClosed) {
-        aside.classList.add('inactive')
+        shoppingCartContainer.classList.add('inactive')
     }
     mobileMenu.classList.toggle('inactive');
     // burgerMenuIcon.classList.toggle('selected');
@@ -63,7 +63,7 @@ function toggleCarritoAside() {
         mobileMenu.classList.add('inactive')
     }
 
-    aside.classList.toggle('inactive');
+    shoppingCartContainer.classList.toggle('inactive');
 }
 
 // Crear una función para agregar productos a un array para que se muestren en la página de inicio
