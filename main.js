@@ -77,102 +77,102 @@ productList.push({
 productList.push({
     name: 'TV',
     price: 400,
-    image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    image: 'https://images.samsung.com/is/image/samsung/assets/co/tvs/2022_Showcase_Card_Tab_Category_QLED_PC_aem_448x684.png?$448_684_PNG$'
 });
 productList.push({
-    name: 'Laptop',
+    name: 'GPU',
     price: 800,
-    image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    image: 'https://images.pexels.com/photos/8622911/pexels-photo-8622911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 });
 productList.push({
     name: 'Phone',
     price: Math.floor(Math.random() * 1000) + 1,
-    image: 'https://images.pexels.com/photos/1/pexels-photo-1.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    image: 'https://images.pexels.com/photos/2810580/pexels-photo-2810580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 });
 productList.push({
     name: 'Headphones',
     price: Math.floor(Math.random() * 1000) + 1,
-    image: 'https://images.pexels.com/photos/2/pexels-photo-2.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    image: 'https://images.pexels.com/photos/205926/pexels-photo-205926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 });
 productList.push({
     name: 'Laptop',
     price: Math.floor(Math.random() * 1000) + 1,
-    image: 'https://images.pexels.com/photos/3/pexels-photo-3.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    image: 'https://images.pexels.com/photos/812264/pexels-photo-812264.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 });
 productList.push({
     name: 'Camera',
     price: Math.floor(Math.random() * 1000) + 1,
-    image: 'https://images.pexels.com/photos/4/pexels-photo-4.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    image: 'https://images.pexels.com/photos/1203803/pexels-photo-1203803.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 });
 productList.push({
     name: 'Smartwatch',
     price: Math.floor(Math.random() * 1000) + 1,
-    image: 'https://images.pexels.com/photos/5/pexels-photo-5.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    image: 'https://images.pexels.com/photos/51011/pexels-photo-51011.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 });
 productList.push({
     name: 'Tablet',
     price: Math.floor(Math.random() * 1000) + 1,
-    image: 'https://images.pexels.com/photos/6/pexels-photo-6.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    image: 'https://images.pexels.com/photos/106341/pexels-photo-106341.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 });
 productList.push({
     name: 'Keyboard',
     price: Math.floor(Math.random() * 1000) + 1,
-    image: 'https://images.pexels.com/photos/7/pexels-photo-7.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    image: 'https://images.pexels.com/photos/399160/pexels-photo-399160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 });
 productList.push({
     name: 'Mouse',
     price: Math.floor(Math.random() * 1000) + 1,
-    image: 'https://images.pexels.com/photos/8/pexels-photo-8.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    image: 'https://resource.logitechg.com/w_692,c_lpad,ar_4:3,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g502x-lightspeed/gallery/g502x-lightspeed-gallery-1-black.png?v=1'
 });
 productList.push({
     name: 'Table',
     price: Math.floor(Math.random() * 1000) + 1,
-    image: 'https://images.pexels.com/photos/9/pexels-photo-9.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    image: 'https://images.pexels.com/photos/280471/pexels-photo-280471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 });
 productList.push({
     name: 'Chair',
     price: Math.floor(Math.random() * 1000) + 1,
-    image: 'https://images.pexels.com/photos/10/pexels-photo-10.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    image: 'https://images.pexels.com/photos/2762247/pexels-photo-2762247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 });
 productList.push({
     name: 'Watch',
     price: Math.floor(Math.random() * 1000) + 1,
-    image: 'https://images.pexels.com/photos/11/pexels-photo-11.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    image: 'https://images.pexels.com/photos/280250/pexels-photo-280250.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 });
 productList.push({
     name: 'Sofa',
     price: Math.floor(Math.random() * 1000) + 1,
-    image: 'https://images.pexels.com/photos/12/pexels-photo-12.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    image: 'https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 });
 productList.push({
     name: 'Book',
     price: Math.floor(Math.random() * 1000) + 1,
-    image: 'https://images.pexels.com/photos/13/pexels-photo-13.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    image: 'https://images.pexels.com/photos/2386687/pexels-photo-2386687.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 });
 productList.push({
     name: 'Glasses',
     price: Math.floor(Math.random() * 1000) + 1,
-    image: 'https://images.pexels.com/photos/14/pexels-photo-14.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    image: 'https://images.pexels.com/photos/185769/pexels-photo-185769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 });
 productList.push({
     name: 'Backpack',
     price: Math.floor(Math.random() * 1000) + 1,
-    image: 'https://images.pexels.com/photos/15/pexels-photo-15.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    image: 'https://images.pexels.com/photos/1294731/pexels-photo-1294731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 });
 productList.push({
     name: 'Plant',
     price: Math.floor(Math.random() * 1000) + 1,
-    image: 'https://images.pexels.com/photos/16/pexels-photo-16.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    image: 'https://images.pexels.com/photos/1445416/pexels-photo-1445416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 });
 productList.push({
     name: 'Candle',
     price: Math.floor(Math.random() * 1000) + 1,
-    image: 'https://images.pexels.com/photos/17/pexels-photo-17.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    image: 'https://images.pexels.com/photos/6311832/pexels-photo-6311832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 });
 productList.push({
     name: 'Clock',
     price: Math.floor(Math.random() * 1000) + 1,
-    image: 'https://images.pexels.com/photos/18/pexels-photo-18.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    image: 'https://images.pexels.com/photos/2182727/pexels-photo-2182727.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 });
 
 

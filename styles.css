@@ -213,7 +213,7 @@ nav {
 }
 
 .mobile-menu .bottom-section {
-    /* position: fixed; */
+    position: fixed;
     bottom: 5px;
 }
 
