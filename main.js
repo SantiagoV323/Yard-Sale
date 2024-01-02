@@ -1,9 +1,11 @@
 const navEmail = document.querySelector('.navbar-email');
 const desktopMenu = document.querySelector('.desktop-menu'); // se usa punto para clases y # para id
 const burgerMenuIcon = document.querySelector('.menu');
+const productDetailCloseIcon = document.querySelector('.product-detail-close');
 const mobileMenu = document.querySelector('.mobile-menu');
 const myOrderCarrito = document.querySelector('.navbar-shopping-cart');
 const shoppingCartContainer = document.querySelector('#shoppingCartContainer');
+const productDetailContainer = document.querySelector('#productDetail');
 const cardsContainer = document.querySelector('.cards-container');
 
 
@@ -11,6 +13,7 @@ const cardsContainer = document.querySelector('.cards-container');
 navEmail.addEventListener('click', toggleDesktopMenu);
 burgerMenuIcon.addEventListener('click', toggleMobileMenu);
 myOrderCarrito.addEventListener('click', toggleCarritoAside);
+productDetailCloseIcon.addEventListener('click', closeProductDetailAside);
 
 function toggleDesktopMenu() {
     const isAsideClosed = shoppingCartContainer.classList.contains('inactive')
@@ -50,6 +53,9 @@ function toggleMobileMenu() {
     if (!isAsideClosed) {
         shoppingCartContainer.classList.add('inactive')
     }
+
+    closeProductDetailAside();
+
     mobileMenu.classList.toggle('inactive');
     // burgerMenuIcon.classList.toggle('selected');
 }
@@ -63,7 +69,23 @@ function toggleCarritoAside() {
         mobileMenu.classList.add('inactive')
     }
 
+    const isProductDetailClosed = productDetailContainer.classList.contains('inactive')
+
+    if (!isProductDetailClosed) {
+        productDetailContainer.classList.add('inactive')
+    }
+
     shoppingCartContainer.classList.toggle('inactive');
+}
+
+function openProductDetailAside() {
+    shoppingCartContainer.classList.add('inactive');
+
+    productDetailContainer.classList.remove('inactive');
+}
+
+function closeProductDetailAside() {
+    productDetailContainer.classList.add('inactive');
 }
 
 // Crear una función para agregar productos a un array para que se muestren en la página de inicio
@@ -182,8 +204,11 @@ function renderProducts(arr) {
         // console.log(product.name);
         const productCard = document.createElement('div'); // document.createElement crea un elemento HTML. En este caso, un div
         productCard.classList.add('product-card'); // paso por paso esta línea es: 1) obtener el elemento creado en la línea anterior, 2) agregarle la clase de html 'product-card'
+        
         const productImg = document.createElement('img'); // crear un elemento img
         productImg.setAttribute('src', product.image); // asignarle el atributo src con el valor de la propiedad image del objeto product, o sea, agregarle un src a cada "image" del array productList
+        productImg.addEventListener('click', openProductDetailAside)
+
         const productInfo = document.createElement('div');
         productInfo.classList.add('product-info');
     
